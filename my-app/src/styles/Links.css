@@ -1,0 +1,104 @@
+.linkblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github_image {
+  background-color: #c27468;
+  border: 2px solid #c27468;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.github_text {
+  color: #c27468;
+  font-size: 22px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume_image {
+  background-color: #c27468;
+  border: 2px solid #c27468;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.resume_text {
+  color: #c27468;
+  font-size: 22px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.weesh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.weesh_image {
+  background-color: #c27468;
+  border: 2px solid #c27468;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.weesh_text {
+  color: #c27468;
+  font-size: 22px;
+  font-weight: 400;
+}
+.tg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tg_image {
+  background-color: #c27468;
+  border: 2px solid #c27468;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.tg_text {
+  color: #c27468;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.description {
+  color: #c27468;
+  font-weight: 500;
+  font-size: 18px;
+  width: 330px;
+  text-align: justify;
+  line-height: 1.5;
+  margin-left: 100px;
+}
