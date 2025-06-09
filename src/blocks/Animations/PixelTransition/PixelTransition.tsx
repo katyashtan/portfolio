@@ -2,7 +2,8 @@
 	Installed from https://reactbits.dev/ts/default/
 */
 
-import React, { useRef, useEffect, useState, CSSProperties } from 'react';
+import { useRef, useEffect, useState } from 'react';
+import type { CSSProperties } from 'react';
 import { gsap } from 'gsap';
 import './PixelTransition.css';
 

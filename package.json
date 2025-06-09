@@ -1,16 +1,20 @@
 {
-  "name": "my-app",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://katyashtan.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "ogl": "^1.0.11",
     "react": "^19.1.0",
