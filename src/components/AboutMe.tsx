@@ -8,7 +8,7 @@ export const AboutMe = () => {
       <PixelTransition
         firstContent={
           <img
-            src="/selfie.jpg"
+            src="selfie.jpg"
             alt="my-photo"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
