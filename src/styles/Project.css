@@ -1,0 +1,13 @@
+.weesh-text {
+  color: #c28468;
+  font-weight: 500;
+  font-size: 22px;
+  width: 550px;
+  text-align: justify;
+  margin-left: 155px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #eab49a;
+}
