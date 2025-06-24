@@ -1,9 +1,14 @@
 .container {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  margin-left: 100px;
+  margin-right: 5vw;
 }
 
 .text-section {
@@ -13,20 +18,66 @@
 }
 
 .name {
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 
 .bio {
   color: #c27468;
   font-weight: 500;
-  font-size: 26px;
-  width: 550px;
+  font-size: 1.5rem;
+  width: 32vw;
   text-align: justify;
   line-height: 1.5;
 }
 
 .container .image {
-  border: 2px solid #c27468;
+  border-color: #c27468;
   border-radius: 50%;
-  margin-right: 100px;
+}
+
+.weesh-text {
+  color: #c28468;
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: 32vw;
+  text-align: justify;
+}
+
+.link {
+  text-decoration: underline;
+  color: #eab49a;
+}
+
+.linkblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 12vw;
+  margin-top: 5vh;
+}
+
+.github_image {
+  background-color: #c28468;
+  border: 2px solid #c28468;
+  border-radius: 50%;
+  width: 3vw;
+  height: 4.5vh;
+  margin-right: 1rem;
+}
+
+.resume_image {
+  background-color: #c28468;
+  border: 2px solid #c28468;
+  border-radius: 50%;
+  width: 3vw;
+  height: 4.5vh;
+  margin-right: 1rem;
+}
+
+.tg_image {
+  background-color: #c28468;
+  border: 2px solid #c28468;
+  border-radius: 50%;
+  width: 3vw;
+  height: 4.5vh;
 }
