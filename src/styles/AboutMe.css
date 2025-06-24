@@ -81,3 +81,39 @@
   width: 3vw;
   height: 4.5vh;
 }
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bio {
+    width: 70vw;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .weesh-text {
+    width: 70vw;
+    text-align: justify;
+  }
+  .linkblock {
+    width: 47vw;
+  }
+
+  .github_image {
+    border-radius: 50%;
+    width: 12vw;
+    height: 6vh;
+  }
+
+  .resume_image {
+    width: 12vw;
+    height: 6vh;
+  }
+
+  .tg_image {
+    width: 12vw;
+    height: 6vh;
+  }
+}
