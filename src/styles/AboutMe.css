@@ -28,6 +28,7 @@
   width: 32vw;
   text-align: justify;
   line-height: 1.5;
+  hyphens: auto;
 }
 
 .container .image {
@@ -41,6 +42,7 @@
   font-size: 1.3rem;
   width: 32vw;
   text-align: justify;
+  hyphens: auto;
 }
 
 .link {
@@ -90,12 +92,9 @@
   }
   .bio {
     width: 70vw;
-    text-align: justify;
-    line-height: 1.5;
   }
   .weesh-text {
     width: 70vw;
-    text-align: justify;
   }
   .linkblock {
     width: 47vw;

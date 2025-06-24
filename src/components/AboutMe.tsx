@@ -45,18 +45,17 @@ export const AboutMe = () => {
         >
           Штанникова Екатерина
         </GradientText>
-        <p className="bio">
+        <p lang="ru" className="bio">
           Я — начинающий frontend-разработчик из Москвы. Люблю разбираться в новом, развиваться и
           решать задачи. Готова расти вместе с командой.
         </p>
-        <p className="weesh-text">
+        <p lang="ru" className="weesh-text">
           <p style={{ fontWeight: 'bolder' }}>Мой опыт:</p>• Участвовала в разработке UI для сервиса{' '}
           <a href="https://t.me/weeshmebot" className="link">
             вишлистов
-          </a>
+          </a>{' '}
           (Telegram-app @weeshmebot, более 100 пользователей).
-          <br /> • Сдала кучу лабораторок по Computer Science в универе (МАИ/факультет Компьютерные
-          технологии и прикладная математика/направление ПМИ)
+          <br /> • Сдала кучу лабораторок по Computer Science в универе (МАИ/направление ПМИ)
         </p>
       </div>
     </div>
